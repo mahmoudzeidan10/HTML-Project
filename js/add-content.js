@@ -17,9 +17,13 @@ if (hourNow >= 18 && hourNow < 24) {
 } else if (hourNow >= 12 && hourNow < 18) { g = 'Have a nice Afternoon'; }
 else if (hourNow >= 0 && hourNow<12) { g = 'Have a nice morning!'; }
 else {
-    g = 'Something wrong!';
+    g = 'Welcome!';
 } 
 console.log(g);
+
+window.alert("Enjoy Watching");
+window.confirm("Are you movies geek");
+
 
  document.write('<h3>' + g + '</h3>');
 
