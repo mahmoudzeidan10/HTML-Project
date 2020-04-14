@@ -1,0 +1,47 @@
+/* 
+problems list
+
+*/ 
+
+
+
+body{
+
+background-color: darkgray;
+}
+
+header h1{
+    text-align: center;
+    color: black;
+}
+
+
+nav ul li {
+
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 120px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: darkblue
+}
+
+article section img{
+    width:25%
+}
+
+footer p{
+    text-align: center;
+    color: black;
+}
+
+#action{
+    color: red;
+}
+
+.other{
+    color: green;
+}
+
